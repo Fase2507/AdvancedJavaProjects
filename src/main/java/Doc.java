@@ -10,7 +10,7 @@ import java.nio.file.Paths;
 /**
  * @author Fatih SEVER
  */
-@WebServlet("/") // This maps the servlet to http://localhost:8080/AdvanceJavaMvn/doc
+@WebServlet("/doc") // This maps the servlet to http://localhost:8080/AdvanceJavaMvn/doc
 public class Doc extends HttpServlet {
     private String dosyaYolu;
     private Long dosyaBoyutu;
