@@ -25,6 +25,7 @@ public class HomePage extends HttpServlet {
 
         try{
             out = res.getWriter();
+            out.println(resHeader);
             out.println("<body>");
             out.println("<h1 style='color: red;'>HOME</h1>");
 

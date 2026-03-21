@@ -29,6 +29,7 @@ public class ServletPost extends HttpServlet {
         out.println("<strong>File Content:</strong><br><pre>" + icerik + "</pre>");
         out.println("</div>");
         out.println("<br><a href='index.html' style='color: #007bff;'>Go Back</a>");
+        out.println("<br><a href='kaydet.jsp' style='color: #007bff;'>Kaydet</a>");
         out.println("</body></html>");
     }
 }
